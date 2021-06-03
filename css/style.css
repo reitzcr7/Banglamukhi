@@ -167,6 +167,7 @@ h6{
     text-align: center;
     transition: all 0.5s;
     text-decoration: none;
+    margin-top: 15px;
 }
 
 .primary-btn:hover{
@@ -178,7 +179,7 @@ h6{
     padding: 0.7rem 1rem;
     height: 2.7rem;
     display: block;
-    border: 1px solid #f4f4f4;
+    border: 0;
     border-radius: 2px;
     font-weight: 500;
     color: #fff;
@@ -190,8 +191,9 @@ h6{
 }
 
 .secondary-btn:hover{
-    border-color: #ce1e4a;
-    border-color: #ce1e4a;
+    /* border-color: #ce1e4a;
+    border-color: #ce1e4a; */
+    background: #ce1e4a;
 }
 
 
