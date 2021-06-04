@@ -10,6 +10,7 @@ body{
     background: #181818;
     color: #fff;
     overflow: hidden;
+    
 }
 
 h1,
@@ -127,17 +128,22 @@ h6{
     background: url('../images/background.jpg') no-repeat center center/cover;
     height: 100vh;
     text-align: center;
+    filter: blur(3px); 
     
 
 }
 
 #showcase-content{
     margin-top: 70vh;
+     
 }
+
+
 
 #showcase .secondary-btn{
     width: 80%;
     margin: auto;
+
 }
 
 /* footer  */
@@ -189,6 +195,8 @@ h6{
     text-align: center;
     transition: all 0.5s;
     text-decoration: none;
+    
+    
 }
 
 .secondary-btn:hover{
@@ -236,5 +244,7 @@ h6{
     #main-footer{
         padding: 1rem;
     }
+
+    
 
 }
